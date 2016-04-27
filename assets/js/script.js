@@ -46,8 +46,21 @@ $(document).ready(function() {
      $('html, body').animate({
        scrollTop: $( $.attr(this, 'href')).offset().top
      }, 300);
+      });
+
+      $("#projectimage1").hover(function(){
+          $("#overlay1").slideDown(400);}, function() {$("#overlay1").fadeOut(400);}
+      )
+      $("#projectimage2").hover(function(){
+          $("#overlay2").slideDown(400);}, function() {$("#overlay2").fadeOut(400);}
+      )
+      $("#projectimage3").hover(function(){
+          $("#overlay3").slideDown(400);}, function() {$("#overlay3").fadeOut(400);}
+      )
 
 
-   });
+
+
+
 
 });

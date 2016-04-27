@@ -369,8 +369,34 @@ a {
 .sidebar-item {
 	padding-right: 20px;
 }
-.overlay {
-	visibility: hidden;
+#overlay1 {
+	display: none;
+	width: 325px;
+	height: 275px;
+	border-radius: 0 0 10px 10px;
+	padding: 12.5px;
+	color:white;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	z-index: 5;
+	top: 11%;
+	left: 1px;
+}
+#overlay3 {
+	display: none;
+	width: 325px;
+	height: 275px;
+	border-radius: 0 0 10px 10px;
+	padding: 12.5px;
+	color:white;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	z-index: 5;
+	top: 11%;
+	left: 1px;
+}
+#overlay2 {
+	display: none;
 	width: 325px;
 	height: 275px;
 	border-radius: 0 0 10px 10px;
@@ -383,11 +409,9 @@ a {
 	left: 1px;
 }
 
-.projectimg:hover .overlay{
+/*.projectimg:hover .overlay{
+	transition: 0.4s;
 	visibility: visible;
 opacity: 1;
--moz-transition: 0.4s; /* Firefox 4 */
-	 -webkit-transition:0.5s linear; /* Safari and Chrome */
-	 -o-transition: 0.5s linear; /* Opera */
-	 -ms-transition: 0.5s linear;
-}
+
+}*/
